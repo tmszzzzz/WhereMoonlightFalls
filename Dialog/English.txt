@@ -1,0 +1,53 @@
+#title
+tmszzzzz_WhereMoonlightFalls= Raincloud
+tmszzzzz_WhereMoonlightFalls_0_WhereMoonlightFalls= Where Moonlight Falls
+tmszzzzz_WhereMoonlightFalls_0_WhereMoonlightFalls_postcard=
+  How many can go home by moonlight on the tide?{n}
+  The setting moon sheds o'er riverside trees but dreams.
+poem_tmszzzzz_WhereMoonlightFalls_0_WhereMoonlightFalls_A= Moonrise on the Tides
+
+#text
+tmszzzzz_WhereMoonlightFalls_tutorial1=
+{anchor top}
+[tmszzzzz]
+Here's a hint!
+1. The start of this room looks completely absurd.
+How are you supposed to do a dream hyper without collecting the {~}{#e268d1}pink refill crystal{#}{/~}?
+If you don't know, then you're not a {~}{#fe7c19}Solar Express fan{#}{/~}!{n}You can go check out {~}{#fe7c19}The Solar Express{#}{/~} in the Strawberry Jam Grandmaster Lobby.
+2. This room has moving block alignment.
+The author has done his best to make the alignment lenient enough that it shouldn't be the hard part here. If you're still missing it, try doing every input as quickly as possible.
+Please don't roast him for the moving block alignment TAT
+3. The author really likes Dash Bounce, so he put {~}three whole{/~} DBs in this room!{n}Most people don't seem to like this tech, though.
+So, in an act of kindness, he added lineups for every DB here.{n}Most of the other low-leniency inputs in this room have lineups too.
+Someday everyone will love DB. >:T
+
+[Madeline deadpan left]
+{>> 0.5}{big}DB is wrong.{/big}{>>}
+
+[BADELINE angryAlt right]
+Who are you talking to?
+
+[BADELINE scoff right]
+DB is right.
+
+[tmszzzzz]
+Also, the author spent an entire week {~}carefully polishing{/~} this room.{n}Hope you enjoy!{/n}
+
+[MADELINE determined left]
+DB is right.
+
+[BADELINE angryAlt right]
+Since when do you like talking to yourself?
+
+[BADELINE scoff right]
+DB is wrong.
+
+AboveTheRaincloudDialog=
+{anchor top}
+{ph_trigger wait_for_ground}
+{ph_trigger walk_to 267}
+{0.1}
+{ph_trigger look right}
+{femto_obfuscated 99}
+[MADELINE normal left]
+AboveTheRaincloudDialog

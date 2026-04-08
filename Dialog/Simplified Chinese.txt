@@ -1,0 +1,292 @@
+tmszzzzz_WhereMoonlightFalls= 雨云
+
+tmszzzzz_WhereMoonlightFalls_0_WhereMoonlightFalls= 愿逐月华流照君
+
+tmszzzzz_WhereMoonlightFalls_0_WhereMoonlightFalls_postcard= 不知乘月几人归，落月摇情满江树。
+
+poem_tmszzzzz_WhereMoonlightFalls_0_WhereMoonlightFalls_A= 何处相思明月楼
+poem_tmszzzzz_WhereMoonlightFalls_0_WhereMoonlightFalls_A2= 昨夜闲潭梦落花
+
+
+tmszzzzz_WhereMoonlightFalls_rev_super= 这个提示用于我的左上角处
+
+tmszzzzz_WhereMoonlightFalls_holdgrab= 按住抓！
+
+tmszzzzz_WhereMoonlightFalls_grab= 在这里抓住水母！
+
+tmszzzzz_WhereMoonlightFalls_drop_down= 下放
+
+tmszzzzz_WhereMoonlightFalls_tutorial1=
+
+{anchor top}
+
+[tmszzzzz]
+这里是提示！
+1.这一面的开头看起来令人匪夷所思。
+有什么办法在不吃到{~}{#e268d1}双冲水晶{#}{/~}的情况下做果冻hyper呢？
+如果你不知道，说明你不是{~}{#fe7c19}冕p{#}{/~}！{n}你可以去草莓酱大师级大厅的{~}{#fe7c19}烈冕号{#}{/~}看一看。
+2.这一面有对车轴要素。
+作者已经尽力调整了对轴的难度，使得它不会成为这里的难点。如果你还是对不上轴，请尝试尽可能快地做所有操作。
+求求你不要骂他写的车轴 TAT
+3.作者很喜欢Dash Bounce这个技巧，所以他在这个房间里塞了{~}整整3个{/~}DB！{n}但是大多数人似乎不喜欢这个技巧。
+所以作者善良地为这里的所有DB写了对准。{n}这一面的大多数低容错操作也都有对准。
+总有一天人人都会喜欢DB的。 >:T
+
+[Madeline deadpan left]
+{>> 0.5}{big}DB是不对的。{/big}{>>}
+
+[BADELINE angryAlt right]
+你在和谁说话？
+
+[BADELINE scoff right]
+DB是对的。 
+
+[tmszzzzz]
+另外，作者花了整整一周的时间来{~}精心雕琢{/~}这一面。{n}希望你玩得开心！{/n}
+
+[MADELINE determined left]
+DB是对的。
+
+[BADELINE angryAlt right]
+你怎么突然喜欢自言自语？
+
+[BADELINE scoff right]
+DB是不对的。 
+
+
+tmszzzzz_WhereMoonlightFalls_tutorial2=
+
+{anchor top}
+[tmszzzzz]
+DB还是不DB，这是个问题。
+如果你想，这里只要一个DB就可以到达前方。
+如果你是不会DB的{~}{#FF7DA7}小猪猪{#}{/~}，你也可以走{#ff9036}橙色硬币{#}所指示的路。
+哇，我竟然允许一只{~}{#FF7DA7}小猪猪{#}{/~}不使用DB来通过这个关卡。
+我真善良。
+[MADELINE determined left]
+你知道我要说什么。
+
+
+InTheRaincloudDialog=
+
+{anchor top}
+
+[MADELINE distracted left]
+这里也太黑了。
+我快看不清前面了...
+
+{ph_trigger baddy_split -15 -15}
+{1}
+
+[BADELINE sad right]
+这地方好可怕...
+
+[MADELINE sad left]
+...你还好吗？
+
+[BADELINE sad right]
+{*}我讨厌这里。{/*}
+{*}我们为什么要跟着奶奶爬到这么高的地方来？{/*}
+
+[MADELINE sad left]
+……
+[MADELINE distracted left]
+我有点呼吸困难。
+[MADELINE determined left]
+不要紧张，想想{+THEO}教过我们的办法。
+
+[BADELINE worried right]
+我知道，
+在{#FFD65C}{~}黄金山脊{/~}{#}的缆车上。
+
+[MADELINE peaceful left]
+想象一根{#FFD65C}{~}金色的羽毛{/~}{#}。
+
+[BADELINE worried right]
+……
+{ph_trigger baddy_float_by_player 0 -30}
+我还是很害怕。
+但我会努力和你一起走下去的。
+{ph_trigger baddy_float_by_player 0 -200}
+{ph_trigger baddy_vanish}
+{ph_trigger camera_pan 0 -400}
+{1}
+{ph_trigger camera_pan 0 400}
+
+[MADELINE determined left]
+我知道的，这一定是最后一段路了。
+我们就快要穿过{#C177F3}{~}雷暴云{/~}{#}了。
+
+
+GoForTheRaincloudDialog=
+
+{anchor top}
+
+[MADELINE sad left]
+雨越来越大了，现在月亮也全被乌云挡住了。
+[MADELINE sadder left]
+好可惜，难得出门赏一次月，居然这么不凑巧...{n}我们先往回走吧。
+
+[GRANNY right laugh]
+怎么这就泄气了，{+MADELINE}？
+[GRANNY right normal]
+想要赏月的话，我们爬到{~}雨云顶端{/~}就看得见了。
+
+[MADELINE deadpan left]
+您知道您在说什么吗奶奶。
+
+[GRANNY right mock]
+我可没开玩笑。你去过的危险地带还少吗？
+{#20851C}荆棘丛生的中国园林{#}、{#fe7c19}神秘的小行星带{#}、{#03E5F5}四{#}{#FC75EB}色{#}弹{#FFCD43}球{#}游戏机...
+
+[BADELINE angryAlt right]
+为什么一个游戏机是危险地带？？
+
+[MADELINE normal left]
+怎么没有{#F88A1A}象牙塔{#}？
+
+[GRANNY right laugh]
+不好意思，{~}我忘了{/~}。
+[GRANNY right mock]
+你不觉得这是一个好主意吗？
+
+[MADELINE normal left]
+......听上去确实很有意思。
+[MADELINE determined left]
+我想这不是什么难事。
+
+
+AboveTheRaincloudDialog=
+{anchor top}
+{ph_trigger wait_for_ground}
+{ph_trigger walk_to 267}
+{0.1}
+{ph_trigger look right}
+{0.1}
+[MADELINE normal left]
+奶奶！
+我就知道，这点路对您来说不算什么。
+[GRANNY right laugh]
+你可算来了，亲爱的。
+[GRANNY right mock]
+我在这里等你好久咯。
+[MADELINE peaceful left]
+这里的景色好奇妙......
+[GRANNY right laugh]
+那是当然。
+[GRANNY right normal]
+接下来这段路也非常地......{~}奇幻{/~}。
+不过我还是能给你指一点路的。
+你会看到三种颜色的果冻块，它们都可以保留你的速度。
+{#88D1DF}蓝色果冻{#}没有什么特别的。
+{#C077F6}紫色果冻{#}可以让你在其中使用冲刺来进行转向。
+如果你冲刺的方向与你的行进方向相同，你的速度会立刻{~}翻倍{/~}。
+{#EE4029}红色果冻{#}会把你往反方向弹飞。{n}而且你可以在被弹飞的短时间内做果冻跳。
+[MADELINE upset left]
+您为什么会知道得这么清楚？
+[GRANNY right laugh]
+我年轻时也是一位登山者嘛！
+[MADELINE upset left]
+这话我听了好几次了。而且这个理由实在不足以让我信服。
+[GRANNY right mock]
+好吧好吧。
+其实是我猜的。
+[MADELINE upset left]
+......这句话也很难相信。
+[GRANNY right mock]
+加油吧，亲爱的。这是最后一段路了。
+[MADELINE sad left]
+......
+[MADELINE distracted left]
+......我们约定过此行的终点在哪里吗？
+{femto_obfuscated 50}
+[GRANNY right mock]
+那终点并不是约定而来的。
+
+
+
+LastScene1Dialog=
+{anchor top}
+[MADELINE normal left]
+奶奶！
+
+LastScene2Dialog=
+{anchor top}
+{2}
+[MADELINE surprised left]
+怎么回事？？？
+奶奶，你去哪里了？
+
+LasteSceneFloatingText1= 我亲爱的，Madeline,
+LasteSceneFloatingText2= 有幸与你共赏一轮明月，
+LasteSceneFloatingText3= 即使在另一个世界...
+LasteSceneFloatingText4= 也如此幸福。
+
+LasteSceneFloatingText5= 此时相望不相闻
+LasteSceneFloatingText6= 愿逐月华流照君
+
+LastScene3Dialog=
+{anchor top}
+[MADELINE distracted left]
+这到底是哪里？
+[MADELINE sadder left]
+......
+我只是一个普通人，怎么可能靠双脚就能爬到云层以上？
+就算奶奶年轻的时候也是登山者，也不可能快到连她的脚步都看不清。
+还有这云层之上的种种离奇，
+就连奶奶也会在我眼前消散。
+[MADELINE panic left]
+奶奶，我好想你。
+......
+{*}奶奶明明已经去世好久了！{/*}
+{*}我怎么可能在散步时偶遇她，又和她同行？{/*}
+{*}我为什么会对这些荒唐的事情表现得仿佛理所应当？{/*}
+{ph_trigger baddy_split -15 -15}
+{1}
+[MADELINE sadder left]
+这一定只是梦吧？
+只有在梦里的人，才无法意识到这些超现实的景象。
+我想我一定快要醒了。
+这一场久违的同行，其实也只是幻影而已。
+
+[BADELINE sigh right]
+也许不是。
+[BADELINE upset right]
+如果这只是一片梦境，那你下一秒就会醒来，发现自己躺在床上。
+你去过{+MOUNTAIN}。还触碰过{#96EFFF}山之心{#}。
+也许你带回了一些{+MOUNTAIN}的力量呢？
+所以我在离开{+MOUNTAIN}之后，还能和你像这样说话。
+
+[MADELINE sad left]
+......
+你是说，这些景象其实是真实的吗？
+就像那些被{+MOUNTAIN}具象化的东西。
+
+[BADELINE sigh right]
+我不知道。
+[BADELINE upset right]
+我只是{+PART_OF_YOU}，并不比你知道得更多。
+可是你看到了奶奶的话，那些悬浮在天空中的字。
+也许{+MOUNTAIN}和你的梦让奶奶和你真的同行过。
+
+[MADELINE sadder left]
+......
+{ph_trigger baddy_combine}
+
+LastScene4Dialog=
+{anchor top}
+{ph_trigger wait_for_ground}
+{1}
+{ph_trigger walk_to 5380}
+{1}
+{ph_trigger player_animation duck}
+
+这一片云上的月光，不止是梦境吗？还是思念因山而具象化的世界。
+随着梦中人的惊醒，这一方超现实的小世界似乎也在崩裂。
+但这树下的墓碑却完好如初。
+是生者的思念如此厚重吗？那样一种无止的心潮，{n}在山之心的回响里，可以托举着穿过狂风暴雨，抵达云际。
+是她真的葬在了这里吗？那样一个温柔的、可爱的、自由的灵魂，{n}长眠于这一片光风霁月之下，与最爱她的人共浴月光。
+......
+此时此刻我与您一同望着天上的月亮，却已不再有机会听见您的回音。
+我愿随着月光流去，永远照耀着您。
+{ph_trigger player_animation idle}

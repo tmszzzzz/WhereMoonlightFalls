@@ -1,0 +1,6 @@
+{ccfd0396-ab71-443a-88b7-d90ec28acd05} event:/tmszzzzz_raincloud/Cp1
+{9245be35-47c2-4601-9314-7907aa570ed0} event:/tmszzzzz_raincloud/Cp2
+{d8adee52-e18c-468b-8c3b-2cf1217abf2f} event:/tmszzzzz_raincloud/Cp2-storm
+{0274c744-e825-43be-a46b-60c0589ac2db} event:/tmszzzzz_raincloud/Cp3
+{0314f336-4331-4afe-af1c-389c2af7ee81} event:/tmszzzzz_raincloud/thunder
+{582981c5-a746-4f09-b6f1-3e8869f0fe96} event:/tmszzzzz_raincloud/Heart
