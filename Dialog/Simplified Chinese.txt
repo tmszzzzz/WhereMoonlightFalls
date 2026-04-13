@@ -72,8 +72,8 @@ InTheRaincloudDialog=
 {anchor top}
 
 [MADELINE distracted left]
-这里也太黑了。
-我快看不清前面了...
+这里也太黑了...
+我简直看不清任何东西...
 
 {ph_trigger baddy_split -15 -15}
 {1}
@@ -84,8 +84,9 @@ InTheRaincloudDialog=
 [MADELINE sad left]
 ...你还好吗？
 
-[BADELINE sad right]
+[BADELINE worried right]
 {*}我讨厌这里。{/*}
+[BADELINE sad right]
 {*}我们为什么要跟着奶奶爬到这么高的地方来？{/*}
 
 [MADELINE sad left]
@@ -215,7 +216,6 @@ LastScene2Dialog=
 {2}
 [MADELINE surprised left]
 怎么回事？？？
-奶奶，你去哪里了？
 
 LasteSceneFloatingText1= 我亲爱的，Madeline,
 LasteSceneFloatingText2= 有幸与你共赏一轮明月，
@@ -228,49 +228,79 @@ LasteSceneFloatingText6= 愿逐月华流照君
 LastScene3Dialog=
 {anchor top}
 [MADELINE distracted left]
-这到底是哪里？
+这到底是什么地方？
+我明明...从来都没有听说过那个遗迹，
+至于能直达云层之上的路，更是闻所未闻。
 [MADELINE sadder left]
 ......
 我只是一个普通人，怎么可能靠双脚就能爬到云层以上？
 就算奶奶年轻的时候也是登山者，也不可能快到连她的脚步都看不清。
-还有这云层之上的种种离奇，
+还有这路上的种种离奇，
 就连奶奶也会在我眼前消散。
 [MADELINE panic left]
 奶奶，我好想你。
 ......
+我为什么现在才想起来这些事情？
 {*}奶奶明明已经去世好久了！{/*}
 {*}我怎么可能在散步时偶遇她，又和她同行？{/*}
 {*}我为什么会对这些荒唐的事情表现得仿佛理所应当？{/*}
 {ph_trigger baddy_split -15 -15}
 {1}
 [MADELINE sadder left]
-这一定只是梦吧？
-只有在梦里的人，才无法意识到这些超现实的景象。
-我想我一定快要醒了。
-这一场久违的同行，其实也只是幻影而已。
+这一定是梦吧？
+所以我才迟迟意识不到这些离奇所在。
+这一场久违的同行，也只是幻境吗。
 
 [BADELINE sigh right]
-也许不是。
+不要那么悲观嘛。
 [BADELINE upset right]
 如果这只是一片梦境，那你下一秒就会醒来，发现自己躺在床上。
+虽然这一切都那么奇幻，那么不真实，
+可我还在这里和你一起呢。
+[BADELINE scoff right]
+难不成我们正在同一片幻境里做梦吗。
+
+[MADELINE upset left]
+谁知道你是不是我梦里的{#d678db}{~}Badeline{/~}{#}呢。
+
+[BADELINE scoff right]
+那没准你也只是我梦里的{+MADELINE}而已。
+[BADELINE upset right]
+至于这一切的原因...
+或许是{#96EFFF}山之心{#}。
 你去过{+MOUNTAIN}。还触碰过{#96EFFF}山之心{#}。
-也许你带回了一些{+MOUNTAIN}的力量呢？
-所以我在离开{+MOUNTAIN}之后，还能和你像这样说话。
+你一定带回了一些{+MOUNTAIN}的力量。
+[BADELINE scoff right]
+不然我平日里怎么像这样和你说话呢。
+
 
 [MADELINE sad left]
 ......
-你是说，这些景象其实是真实的吗？
+你是说，这些景象其实是...真实的吗？
 就像那些被{+MOUNTAIN}具象化的东西。
 
 [BADELINE sigh right]
-我不知道。
+也许吧。我不知道。
 [BADELINE upset right]
 我只是{+PART_OF_YOU}，并不比你知道得更多。
-可是你看到了奶奶的话，那些悬浮在天空中的字。
-也许{+MOUNTAIN}和你的梦让奶奶和你真的同行过。
+但是真实与否真的重要吗？
 
 [MADELINE sadder left]
 ......
+可我好希望这是真的。{n}希望我和她短暂同行的这一段路程不仅仅是黄粱一梦。
+
+[BADELINE upset right]
+你知道你在报以什么样的希冀吗？{+MADELINE}。{n}这是不可知的事情。
+你又如何确定这像是幻境一样的景色之外就是现实呢。
+[BADELINE serious right]
+你怎么证明我们不只是一个电子游戏里的女主角和她的{#d678db}{~}另一个自己{/~}{#}呢。
+[BADELINE upset right]
+你看到奶奶的...那些悬浮在天空中的话语了吗？
+就当作是{#96EFFF}山之心{#}在梦中回响，{n}让奶奶再度和你短暂地走过了一程吧。
+
+[MADELINE sadder left]
+......
+
 {ph_trigger baddy_combine}
 
 LastScene4Dialog=
@@ -281,12 +311,12 @@ LastScene4Dialog=
 {1}
 {ph_trigger player_animation duck}
 
-这一片云上的月光，不止是梦境吗？还是思念因山而具象化的世界。
+这一片云上的月光，是梦境，还是{#96EFFF}山之心{#}具象化的现实呢？
 随着梦中人的惊醒，这一方超现实的小世界似乎也在崩裂。
 但这树下的墓碑却完好如初。
-是生者的思念如此厚重吗？那样一种无止的心潮，{n}在山之心的回响里，可以托举着穿过狂风暴雨，抵达云际。
-是她真的葬在了这里吗？那样一个温柔的、可爱的、自由的灵魂，{n}长眠于这一片光风霁月之下，与最爱她的人共浴月光。
+是生者的思念如此厚重吗？那样一种无止的心潮，{n}在{#96EFFF}山之心{#}的回响里，可以被托举着穿过狂风暴雨，抵达云际。
+是她真的葬在了这里吗？那样一个温柔的、可爱的、自由的灵魂，{n}长眠于这一片光风霁月之下，竟能与最爱她的人再度相逢。
 ......
-此时此刻我与您一同望着天上的月亮，却已不再有机会听见您的回音。
-我愿随着月光流去，永远照耀着您。
+此时此刻您正与我一同望着天上的月亮吗？{n}而我已不再有机会听见您的回音。
+我愿随着那月光流去，永远照耀着您。
 {ph_trigger player_animation idle}

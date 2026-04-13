@@ -219,13 +219,13 @@
   </Tileset>
 
   <Tileset id="n" copy="z" path="scifi"/>
-  <Tileset id="p" copy="z" path="tmszzzzz/WhereMoonlightFalls/purpleCliffside"/>
-  <Tileset id="q" copy="z" path="tmszzzzz/WhereMoonlightFalls/grassdark"/>
-  <Tileset id="r" copy="z" path="tmszzzzz/WhereMoonlightFalls/dirtdark"/>
+  <Tileset id="p" copy="z" path="tmszzzzz/WhereMoonlightFalls/purpleCliffside" sound="1"/>
+  <Tileset id="q" copy="z" path="tmszzzzz/WhereMoonlightFalls/grassdark" ignores="r" sound="25"/>
+  <Tileset id="r" copy="z" path="tmszzzzz/WhereMoonlightFalls/dirtdark" sound="3"/>
   <Tileset id="s" copy="z" path="tmszzzzz/WhereMoonlightFalls/voidstone"/>
   <Tileset id="t" copy="z" path="tmszzzzz/WhereMoonlightFalls/cobwebs"/>
   <Tileset id="v" copy="z" path="tmszzzzz/WhereMoonlightFalls/graycement"/>
-  <Tileset id="y" copy="z" path="tmszzzzz/WhereMoonlightFalls/Av_ruinedStone"/>
+  <Tileset id="y" copy="z" path="tmszzzzz/WhereMoonlightFalls/Av_ruinedStone" ignores="7"/>
   
   <Tileset id="u" path="tmszzzzz/WhereMoonlightFalls/purplecement">
     <!-- edges -->
