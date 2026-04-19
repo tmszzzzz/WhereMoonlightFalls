@@ -106,7 +106,9 @@ InTheRaincloudDialog=
 [BADELINE worried right]
 ……
 {ph_trigger baddy_float_by_player 0 -30}
-我还是很害怕。
+[BADELINE sad right]
+对不起，我还是很害怕。
+[BADELINE worried right]
 但我会努力和你一起走下去的。
 {ph_trigger baddy_float_by_player 0 -200}
 {ph_trigger baddy_vanish}
@@ -115,8 +117,8 @@ InTheRaincloudDialog=
 {ph_trigger camera_pan 0 400}
 
 [MADELINE determined left]
-我知道的，这一定是最后一段路了。
-我们就快要穿过{#C177F3}{~}雷暴云{/~}{#}了。
+只需呼吸，{+MADELINE}，{n}还有{+PART_OF_ME}。
+{#FFD65C}{~}金色的羽毛{/~}{#}会指引我们穿过{#C177F3}{~}雷暴云{/~}{#}。
 
 
 GoForTheRaincloudDialog=
@@ -247,9 +249,8 @@ LastScene3Dialog=
 {ph_trigger baddy_split -15 -15}
 {1}
 [MADELINE sadder left]
-这一定是梦吧？
-所以我才迟迟意识不到这些离奇所在。
-这一场久违的同行，也只是幻境吗。
+这一定是梦吧？多么超乎常理的景色，
+我却对此无动于衷，就好像它们本该如此一样。
 
 [BADELINE sigh right]
 不要那么悲观嘛。
@@ -258,32 +259,49 @@ LastScene3Dialog=
 虽然这一切都那么奇幻，那么不真实，
 可我还在这里和你一起呢。
 [BADELINE scoff right]
-难不成我们正在同一片幻境里做梦吗。
+难不成我们还能在同一片幻境里做梦吗。
 
 [MADELINE upset left]
 谁知道你是不是我梦里的{#d678db}{~}Badeline{/~}{#}呢。
 
 [BADELINE scoff right]
 那没准你也只是我梦里的{+MADELINE}而已。
-[BADELINE upset right]
-至于这一切的原因...
-或许是{#96EFFF}山之心{#}。
-你去过{+MOUNTAIN}。还触碰过{#96EFFF}山之心{#}。
-你一定带回了一些{+MOUNTAIN}的力量。
-[BADELINE scoff right]
-不然我平日里怎么像这样和你说话呢。
+[BADELINE normal right]
+这种思绪与现实交织的景色，有没有让你想起什么？
 
-
-[MADELINE sad left]
+[MADELINE distracted left]
 ......
+{#96EFFF}塞莱斯特山{#}。
+[MADELINE sad left]
+啊！
 你是说，这些景象其实是...真实的吗？
 就像那些被{+MOUNTAIN}具象化的东西。
+[MADELINE distracted left]
+可我们早就不在{+MOUNTAIN}上了......
+
+[BADELINE upset right]
+话是这么说没错......
+不过你忘了吗，离开{+MOUNTAIN}之后，{n}我其实本应该不能再{#d678db}{~}像这样{/~}{#}出现在你眼前了。
+
+[MADELINE distracted left]
+{#96EFFF}山之心{#}。
+
+[BADELINE upset right]
+是的。自从你从{+MOUNTAIN}的核心归来，{n}似乎就带回了一些{+MOUNTAIN}的力量。
+
+[MADELINE sad left]
+真的吗？所以那真的是奶奶吗！
+......
+[MADELINE sadder left]
+......
+[MADELINE panic left]
+......
 
 [BADELINE sigh right]
-也许吧。我不知道。
+坦白说，我不知道。
 [BADELINE upset right]
-我只是{+PART_OF_YOU}，并不比你知道得更多。
-但是真实与否真的重要吗？
+我只是{+PART_OF_YOU}，并不比你自己知道得更多。
+但我们可以不那么执着于真实与否。
 
 [MADELINE sadder left]
 ......
@@ -295,8 +313,10 @@ LastScene3Dialog=
 [BADELINE serious right]
 你怎么证明我们不只是一个电子游戏里的女主角和她的{#d678db}{~}另一个自己{/~}{#}呢。
 [BADELINE upset right]
-你看到奶奶的...那些悬浮在天空中的话语了吗？
-就当作是{#96EFFF}山之心{#}在梦中回响，{n}让奶奶再度和你短暂地走过了一程吧。
+葬礼是为活着的人举办的，{+MADELINE}。
+就当作那就是她，{n}当作是奶奶回来你的梦里看你了。
+[BADELINE normal right]
+就当作是{#96EFFF}山之心{#}在梦中回响，{n}让奶奶再度和我们短暂地走过了一程吧。
 
 [MADELINE sadder left]
 ......
@@ -307,10 +327,10 @@ LastScene4Dialog=
 {anchor top}
 {ph_trigger wait_for_ground}
 {1}
-{ph_trigger walk_to 5380}
+{ph_trigger walk_to 15910}
 {1}
 {ph_trigger player_animation duck}
-
+{~}故人入我梦，明我长相忆。{/~}
 这一片云上的月光，是梦境，还是{#96EFFF}山之心{#}具象化的现实呢？
 随着梦中人的惊醒，这一方超现实的小世界似乎也在崩裂。
 但这树下的墓碑却完好如初。
