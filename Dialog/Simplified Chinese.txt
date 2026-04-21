@@ -67,7 +67,7 @@ DB还是不DB，这是个问题。
 你知道我要说什么。
 
 
-InTheRaincloudDialog=
+tmszzzzz_WhereMoonlightFalls_InTheRaincloudDialog=
 
 {anchor top}
 
@@ -121,7 +121,7 @@ InTheRaincloudDialog=
 {#FFD65C}{~}金色的羽毛{/~}{#}会指引我们穿过{#C177F3}{~}雷暴云{/~}{#}。
 
 
-GoForTheRaincloudDialog=
+tmszzzzz_WhereMoonlightFalls_GoForTheRaincloudDialog=
 
 {anchor top}
 
@@ -159,7 +159,7 @@ GoForTheRaincloudDialog=
 我想这不是什么难事。
 
 
-AboveTheRaincloudDialog=
+tmszzzzz_WhereMoonlightFalls_AboveTheRaincloudDialog=
 {anchor top}
 {ph_trigger wait_for_ground}
 {ph_trigger walk_to 267}
@@ -208,7 +208,7 @@ AboveTheRaincloudDialog=
 
 
 
-LastScene1Dialog=
+tmszzzzz_WhereMoonlightFalls_LastScene1Dialog=
 {anchor top}
 [MADELINE normal left]
 奶奶！
@@ -219,15 +219,15 @@ LastScene2Dialog=
 [MADELINE surprised left]
 怎么回事？？？
 
-LasteSceneFloatingText1= 我亲爱的，Madeline,
-LasteSceneFloatingText2= 有幸与你共赏一轮明月，
-LasteSceneFloatingText3= 即使在另一个世界...
-LasteSceneFloatingText4= 也如此幸福。
+tmszzzzz_WhereMoonlightFalls_LasteSceneFloatingText1= 我亲爱的，Madeline,
+tmszzzzz_WhereMoonlightFalls_LasteSceneFloatingText2= 有幸与你共赏一轮明月，
+tmszzzzz_WhereMoonlightFalls_LasteSceneFloatingText3= 即使在另一个世界...
+tmszzzzz_WhereMoonlightFalls_LasteSceneFloatingText4= 也如此幸福。
 
-LasteSceneFloatingText5= 此时相望不相闻
-LasteSceneFloatingText6= 愿逐月华流照君
+tmszzzzz_WhereMoonlightFalls_LasteSceneFloatingText5= 此时相望不相闻
+tmszzzzz_WhereMoonlightFalls_LasteSceneFloatingText6= 愿逐月华流照君
 
-LastScene3Dialog=
+tmszzzzz_WhereMoonlightFalls_LastScene3Dialog=
 {anchor top}
 [MADELINE distracted left]
 这到底是什么地方？
@@ -323,7 +323,7 @@ LastScene3Dialog=
 
 {ph_trigger baddy_combine}
 
-LastScene4Dialog=
+tmszzzzz_WhereMoonlightFalls_LastScene4Dialog=
 {anchor top}
 {ph_trigger wait_for_ground}
 {1}
@@ -340,3 +340,47 @@ LastScene4Dialog=
 此时此刻您正与我一同望着天上的月亮吗？{n}而我已不再有机会听见您的回音。
 我愿随着那月光流去，永远照耀着您。
 {ph_trigger player_animation idle}
+
+tmszzzzz_WhereMoonlightFalls_LastScene4Dialog_true_end=
+{anchor top}
+{ph_trigger wait_for_ground}
+{1}
+{ph_trigger walk_to 15910}
+{1}
+{ph_trigger player_animation duck}
+{~}故人入我梦，明我长相忆。{/~}
+这一片云上的月光，是梦境，还是{#96EFFF}山之心{#}具象化的现实呢？
+随着梦中人的惊醒，这一方超现实的小世界似乎也在崩裂。
+但这树下的墓碑却完好如初。
+是生者的思念如此厚重吗？那样一种无止的心潮，{n}在{#96EFFF}山之心{#}的回响里，可以被托举着穿过狂风暴雨，抵达云际。
+是她真的葬在了这里吗？那样一个温柔的、可爱的、自由的灵魂，{n}长眠于这一片光风霁月之下，竟能与最爱她的人再度相逢。
+......
+此时此刻您正与我一同望着天上的月亮吗？{n}而我已不再有机会听见您的回音。
+我愿随着那月光流去，永远照耀着您。
+{#FAC1E4}在这无际的云海之上，
+漫天的月色里，我为您
+献上一束花。
+愿这小小的花瓣能带去
+我无边的思念。{#}
+{ph_trigger player_animation idle}
+
+
+tmszzzzz_WhereMoonlightFalls_LastScene5Dialog_true_end=
+{anchor top}
+[MADELINE distracted left]
+{+THOUGHT}这里是...“现实”了吗？{+ENDTHOUGHT}
+[MADELINE sadder left]
+......
+[MADELINE sad left]
+{+THOUGHT}!!{+ENDTHOUGHT}
+
+tmszzzzz_WhereMoonlightFalls_LastScene6Dialog_true_end=
+{anchor top}
+[MADELINE sad left]
+{+THOUGHT}花瓣......{+ENDTHOUGHT}
+[MADELINE sadder left]
+......
+奶奶，这是我送给您的{#FAC1E4}花{#}。
+您真的收到了吗？
+[MADELINE panic left]
+......

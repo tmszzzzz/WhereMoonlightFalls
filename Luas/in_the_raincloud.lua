@@ -24,7 +24,7 @@ function onBegin()
     wait(1)
 
     -- 由你的 helper 在这段对话里负责召唤 / 控制 Badeline
-    say("InTheRaincloudDialog")
+    say("tmszzzzz_WhereMoonlightFalls_InTheRaincloudDialog")
 
     -- 激活 flag
     setFlag("go_up", true)
