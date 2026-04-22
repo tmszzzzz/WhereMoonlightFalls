@@ -30,11 +30,12 @@ function onBegin()
         coroutine.yield()
     end
 
+    player.DummyAutoAnimate = false
     say("tmszzzzz_WhereMoonlightFalls_LastScene6Dialog_true_end")
-    
     wait(1)
     setFlag("showblackfg", true)
     wait(3)
+    player.DummyAutoAnimate = true
     player.ForceCameraUpdate = false
     enableMovement()
     enableRetry()
