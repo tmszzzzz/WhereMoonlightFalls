@@ -368,6 +368,7 @@ tmszzzzz_WhereMoonlightFalls_LastScene4Dialog_true_end=
 tmszzzzz_WhereMoonlightFalls_LastScene5Dialog_true_end=
 {anchor top}
 [MADELINE distracted left]
+......
 {+THOUGHT}这里是...“现实”了吗？{+ENDTHOUGHT}
 [MADELINE sadder left]
 ......
