@@ -29,12 +29,12 @@ function onBegin()
     while not level.Session:GetFlag(doneFlag) do
         coroutine.yield()
     end
-
+    wait(1)
     player.DummyAutoAnimate = false
     say("tmszzzzz_WhereMoonlightFalls_LastScene6Dialog_true_end")
     wait(1)
     setFlag("showblackfg", true)
-    wait(3)
+    wait(6)
     player.DummyAutoAnimate = true
     player.ForceCameraUpdate = false
     enableMovement()
