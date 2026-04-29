@@ -8,7 +8,6 @@ function onBegin()
     player.ForceCameraUpdate = true
     player.Speed = vector2(0,0)
     player.Facing = getEnum("Celeste.Facings", "Right")
-    
     setFlag("true_ending", true)
     wait(2.5)
     say("tmszzzzz_WhereMoonlightFalls_LastScene5Dialog_true_end")
@@ -29,13 +28,13 @@ function onBegin()
     while not level.Session:GetFlag(doneFlag) do
         coroutine.yield()
     end
+
+    disableMovement()
     wait(1)
-    player.DummyAutoAnimate = false
     say("tmszzzzz_WhereMoonlightFalls_LastScene6Dialog_true_end")
     wait(1)
     setFlag("showblackfg", true)
     wait(6)
-    player.DummyAutoAnimate = true
     player.ForceCameraUpdate = false
     enableMovement()
     enableRetry()
@@ -47,8 +46,4 @@ function onEnd(room, wasSkipped)
     enableRetry()
     player.ForceCameraUpdate = false
     enableMovement()
-    -- 如果过场被跳过，也要保证最终状态成立
-    if wasSkipped then
-        instantTeleportTo(16208, -17048, "R4-TE2")
-    end
 end

@@ -11,7 +11,115 @@ tmszzzzz_WhereMoonlightFalls_0_WhereMoonlightFalls_R1_1= 闲庭信步
 tmszzzzz_WhereMoonlightFalls_0_WhereMoonlightFalls_R2_1= 覆雨翻云
 tmszzzzz_WhereMoonlightFalls_0_WhereMoonlightFalls_R3_1= 光风霁月
 
+tmszzzzz_WhereMoonlightFalls_Gym_ReturnTitle= 返回
 
+tmszzzzz_WhereMoonlightFalls_Gym_IntroTitle= 引言
+tmszzzzz_WhereMoonlightFalls_Gym_Intro=
+{anchor top}
+[tmszzzzz]
+你好！这里是tmszzzzz。
+这里是类似训练场的地方，{n}会介绍一些本图中出现的{~}不常见的技巧{/~}。
+向右走可以依次见到这些内容。
+非常感谢你愿意来游玩我制作的{~}第一张{/~}地图。
+这张地图（也许）含有如下要素：
+高密、高速、高难、路线、{n}氛围营造、演出设计、剧情 & True Ending......
+可能还有更多。
+我不能在每个要素上都做到很完美，{n}但我为其中每个部分都付出了很大的努力。
+希望它真的可以把这么多要素以较为融洽的方式展示出来，
+也希望你玩得开心。
+
+
+tmszzzzz_WhereMoonlightFalls_Gym_CreditTitle= 致谢
+tmszzzzz_WhereMoonlightFalls_Gym_Credit=
+{anchor top}
+[tmszzzzz]
+本地图使用到的Tilesets分别来自：{n}Circumplex、MarioXHK、tobyaaa、{n}Yoshachobi7、Alex6886、andytampan、Mosscairn。
+本地图使用到的Bgm：
+Chapter I & II - 王三溥 《愿逐月华流照君》
+Chapter III - 王三溥 《锦瑟》
+选关界面 & True Ending - 王三溥 《三月》
+感谢USTCer in Celeste群友们，{n}他们为我的制图过程提供了大量宝贵的意见。
+这其中尤其感谢TrigenWolf.为本图提供了两个{#F94A4A}草莓{#}，
+以及Kisaragi、DancingWave、PeachJam、{n}Kuroflame、Martiancat深度参与了测图全流程。
+另外也感谢如下测图人员：{n}PowerMaster、咸鱼isbvoh、azure_bluet、H217_、蜘蛛。
+感谢我的好朋友cn陆云川绘制的关卡结算图，以及游戏内的插图。
+感谢来自制图群的大佬Lucky Boy为我定制的消散动画。
+{+THOUGHT}我会不会剧透了些什么......{+ENDTHOUGHT}
+感谢Bilibili id 苏苏苏苏茶茶茶茶 的小伙伴。{n}他说这个结局太刀乐，能不能写个真结局。
+所以这张图有True Ending要素。{n}不过条件很宽松，你只要收集全部{#F94A4A}草莓{#}就可以了！
+感谢NaCline老师。她在氛围营造与故事讲述的设计上为我提供了很不错的建议。{n}另外，她的作品也给了我许多这方面的灵感。
+感谢所有在我发布的视频下支持并催更的人。
+非常非常感谢以上提到的所有人。{n}如果没有你们，这张图远不能达到当前的完成度。
+
+tmszzzzz_WhereMoonlightFalls_Gym_CrouchingClimbTitle= 蹲姿上墙
+tmszzzzz_WhereMoonlightFalls_Gym_CrouchingClimb=
+{anchor top}
+[tmszzzzz]
+蹲姿上墙可以使得你保持蹲姿进行抓跳。
+想要完成这个技巧，你需要以一个蹲跳起手，{n}并在墙上进行连续的预输入抓跳。
+如果你具有向下的速度，蹲姿会解除。
+这意味着你连续跳跃之间，松开跳跃键的间隔需要尽量短。
+如果你擅长使用两个跳跃键，那么推荐你按住其中一个，{n}然后点按另一个跳跃键来实现连续的跳跃。
+你的冲刺在这里已被禁用，尝试使用蹲姿上墙来越过这条窄缝。
+
+tmszzzzz_WhereMoonlightFalls_Gym_CrouchingWallBoostTitle= 蹲姿偷体力上墙
+tmszzzzz_WhereMoonlightFalls_Gym_CrouchingWallBoost=
+{anchor top}
+[tmszzzzz]
+蹲姿偷体力上墙就是在蹲姿上墙时使用中性抓跳，{n}然后在特定位置使用偷体力上墙。
+偷体力上墙在草莓酱大师级训练场已有介绍。
+作为补充的是，多数偷体力上墙失败的原因是没有做出中性抓跳。
+做抓跳前如果按了左右方向键，那么是做不了偷体力上墙的。
+因此，蹲姿偷体力上墙的左右键最好轻按。
+这里的摆刺容错略低，这只是为了限制没有做出偷体力上墙时的容错。
+
+tmszzzzz_WhereMoonlightFalls_Gym_SwapExtendedHyperTitle= Swap充能hyper
+tmszzzzz_WhereMoonlightFalls_Gym_SwapExtendedHyper=
+{anchor top}
+[tmszzzzz]
+这里有一个行程非常短的swap块。
+按直觉来说，这么短的距离完全不能做出充能的hyper。
+然而，虽然它的行程很短，但它移动的速度却快于你的冲刺。
+这会导致你的冲刺位移完全被swap块的移动覆盖掉。{n}这表现为你做出了冲刺，却只产生了很短的位移。
+于是，你站在swap块上时，可以做出非常宽松的充能hyper。{n}同时你还可以获得来自swap的加速。
+
+tmszzzzz_WhereMoonlightFalls_Gym_RetentionTitle= 泡泡Retention
+tmszzzzz_WhereMoonlightFalls_Gym_Retention=
+{anchor top}
+[tmszzzzz]
+Retention是对阻挡还原现象的概括。
+当你带有速度时被障碍物阻挡，而片刻后又不受阻挡时，{n}
+你受阻前的速度会返还给你。
+如果把retention和泡泡结合，就会得到泡泡retention。
+泡泡retention是一种视觉效果非常诡异的技巧，{n}简单来说，如果你冲刺滑过墙角的短时间内进入了泡泡，{n}而泡泡那一侧又没有墙阻挡，
+那么你本应该被吸入泡泡，却被莫名地返还了向前的速度。
+于是你会诡异地从泡泡里滑出去。
+此时再次按下冲刺键，你会被拉回泡泡的位置做出泡泡冲刺。
+这可以让你做出保留了横向速度的泡泡冲刺。
+通常而言，使用下蹲冲刺来滑过墙角的retention容错更高。{n}不要担心，这个技巧并不带来更高的操作难度。{n}它只是不那么符合直觉。
+在这个例子中，你要做一个hyper起手的ultra，{n}然后跳起并立刻使用dd右上冲。
+如果你操作正确，你会滑出泡泡。此时做一个右下冲ultra。
+如果你没有滑出泡泡，那么你只能做一个斜下45°的泡泡冲刺，{n}这会撞到刺上。
+
+
+tmszzzzz_WhereMoonlightFalls_Gym_BubbleCancelTitle= 泡泡打断
+tmszzzzz_WhereMoonlightFalls_Gym_BubbleCancel=
+{anchor top}
+我不确定这个技巧是否有公认的名字，{n}我暂时称之为“泡泡打断”。
+当你在泡泡中触碰到弹簧、弹球等实体，它会打断你的泡泡状态。
+然而，你下一次冲刺仍然会变成泡泡冲刺。
+这一次冲刺与普通冲刺没有操作上的不同，{n}但它不会触发swap等需要冲刺触发的实体。
+在这个例子中，你需要使用一个泡泡冲刺来通过前方的swap。
+顺带一提，本图中有一处泡泡打断出现在与泡泡retention相结合的地方。{n}你需要在retention滑出泡泡后触及弹簧。
+
+tmszzzzz_WhereMoonlightFalls_Gym_MomentumCarryTitle= 延迟机关加速
+tmszzzzz_WhereMoonlightFalls_Gym_MomentumCarry=
+{anchor top}
+在你离开一个移动的方块之后，或在该移动的方块停止后的 9 帧内，{n}你所进行的跳跃或冲刺都将获得该方块提供的机关加速。
+这里的跳跃并不必须和这个方块有关，{n}你在任何表面上做的跳跃都可以加速。
+在这个例子中，你需要踩上移动块，{n}在越过单向板后，立刻左上冲并踢墙。
+神奇的是，这个踢墙跳居然获得了来自移动块的加速，{n}哪怕它们看起来一点关系也没有。
+顺带一提，本图中的一处延迟加速是抓在移动块侧面起手的。{n}这需要你在冲刺时不要松开抓，松抓会导致 9 帧的计时提前开始。
 
 tmszzzzz_WhereMoonlightFalls_rev_super= 这个提示用于我的左上角处
 
@@ -90,7 +198,7 @@ tmszzzzz_WhereMoonlightFalls_HaveABreakDialog=
 前面的路可能不是很好走哦。
 
 tmszzzzz_WhereMoonlightFalls_R1_1MeetGrannyDialog=
-{anchor top}
+{anchor bottom}
 {ph_trigger look right}
 [MADELINE surprised left]
 哎，奶奶？
@@ -145,7 +253,7 @@ tmszzzzz_WhereMoonlightFalls_R1_1MeetGrannyDialog=
 
 
 tmszzzzz_WhereMoonlightFalls_R1_1GrannyDialog=
-{anchor top}
+{anchor bottom}
 [GRANNY right mock]
 怎么了？还不出发吗？
 [MADELINE sad left]
@@ -300,8 +408,9 @@ tmszzzzz_WhereMoonlightFalls_R2_1IntroDialog=
 ......
 
 [GRANNY right normal]
-但不用我说你也能猜到，那条路有点难走。
-而且，看这雨势，也许等会儿雨还会下得更大。
+但是那条路有点难走。
+看这雨势，也许等会儿雨还会下得更大。
+如果你想走那条路，这可不是个好消息。
 
 [MADELINE normal left]
 但既然有这么一条路，那我就要来走走看。
@@ -312,8 +421,7 @@ tmszzzzz_WhereMoonlightFalls_R2_1IntroDialog=
 [GRANNY right mock]
 没关系，相信她好了。
 [GRANNY right normal]
-但是，前面可不能散步了。
-我们要在雨下得更大之前到达那里。
+但是，前面可不能像刚才一样悠哉游哉了。{n}我们要在雨下得更大之前到达那里。
 这里就是遗迹的入口，离那座塔楼已经不远。
 我们{~}加快脚步{/~}吧！
 {ph_trigger baddy_combine}
@@ -669,9 +777,9 @@ tmszzzzz_WhereMoonlightFalls_LastScene7Dialog_true_end=
 嘿嘿，奶奶我{~}无所不能{/~}，{n}当然要带你来见识最美的风景！
 [MADELINE peaceful left]
 对呀，这里的景色真的好美丽。
+[MADELINE normal left]
 无际的云海，漫天的月色......
 云上的浮空岛与樱花树，{n}晶莹剔透的水晶之心......
-[MADELINE normal left]
 还有我最亲爱的奶奶！
 [MADELINE peaceful left]
 真是像{~}做梦{/~}一般......
@@ -700,6 +808,27 @@ tmszzzzz_WhereMoonlightFalls_LastScene7Dialog_true_end=
 明明奶奶您还在这里，我们下次也可以再一起来，
 [MADELINE panic left]
 可是不知怎的，我就是觉得很难过，很害怕。
-就好像是，害怕离开这里后，再也没有机会和您一起来了......
+就好像是，害怕离开这里后，再也没有机会和您一起来到这里......
 [GRANNY right normal]
 你这傻孩子，干嘛突然把气氛搞得那么伤感。
+[GRANNY right laugh]
+我这不是好端端地在这里嘛。
+[GRANNY right normal]
+每一个有这样美丽月色的夜晚，{n}我们都可以一起来散步呀。
+在月光下出门，走在山林里的小路上，
+也许会恰好遇上我，就像今天这样同行一程。
+[GRANNY right laugh]
+这不是非常稀松平常的事情吗？
+[MADELINE sad left]
+是呀......
+[MADELINE normal left]
+但是今天的旅程，我会永远记得。
+所以，就让这份美好再持续久一些吧。
+
+tmszzzzz_WhereMoonlightFalls_FinalDialog_true_end=
+{anchor top}
+[GRANNY right normal]
+我亲爱的，{+MADELINE}。
+有幸与你共赏一轮明月，真的是很幸福的事情。
+ {#F94A4A}在最后的最后，我们就一起看看这里的景色吧。
+我真的很想你。 {#}
