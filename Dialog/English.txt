@@ -1,53 +1,875 @@
-#title
-tmszzzzz_WhereMoonlightFalls= Raincloud
-tmszzzzz_WhereMoonlightFalls_0_WhereMoonlightFalls= Where Moonlight Falls
-tmszzzzz_WhereMoonlightFalls_0_WhereMoonlightFalls_postcard=
-  How many can go home by moonlight on the tide?{n}
-  The setting moon sheds o'er riverside trees but dreams.
-poem_tmszzzzz_WhereMoonlightFalls_0_WhereMoonlightFalls_A= Moonrise on the Tides
+tmszzzzz_WhereMoonlightFalls= Rainclouds
 
-#text
-tmszzzzz_WhereMoonlightFalls_tutorial1=
+tmszzzzz_WhereMoonlightFalls_0_WhereMoonlightFalls= Where Moonlight Falls
+
+tmszzzzz_WhereMoonlightFalls_0_WhereMoonlightFalls_postcard= 
+How many returned home beneath the moon?{n}The setting moon sways longing through the riverside trees.
+
+poem_tmszzzzz_WhereMoonlightFalls_0_WhereMoonlightFalls_A= Where Longing Meets the Moon
+poem_tmszzzzz_WhereMoonlightFalls_0_WhereMoonlightFalls_A2= Dreaming of Falling Flowers
+
+tmszzzzz_WhereMoonlightFalls_0_WhereMoonlightFalls_R1_1= Stroll
+tmszzzzz_WhereMoonlightFalls_0_WhereMoonlightFalls_R2_1= Downpour
+tmszzzzz_WhereMoonlightFalls_0_WhereMoonlightFalls_R3_1= Serenity
+
+tmszzzzz_WhereMoonlightFalls_0_WhereMoonlightFalls_Guest= Guest Room{n}by TrigenWolf.
+
+tmszzzzz_WhereMoonlightFalls_Gym_Dialog=
 {anchor top}
 [tmszzzzz]
-Here's a hint!
-1. The start of this room looks completely absurd.
-How are you supposed to do a dream hyper without collecting the {~}{#e268d1}pink refill crystal{#}{/~}?
-If you don't know, then you're not a {~}{#fe7c19}Solar Express fan{#}{/~}!{n}You can go check out {~}{#fe7c19}The Solar Express{#}{/~} in the Strawberry Jam Grandmaster Lobby.
-2. This room has moving block alignment.
-The author has done his best to make the alignment lenient enough that it shouldn't be the hard part here. If you're still missing it, try doing every input as quickly as possible.
-Please don't roast him for the moving block alignment TAT
-3. The author really likes Dash Bounce, so he put {~}three whole{/~} DBs in this room!{n}Most people don't seem to like this tech, though.
-So, in an act of kindness, he added lineups for every DB here.{n}Most of the other low-leniency inputs in this room have lineups too.
-Someday everyone will love DB. >:T
+There is an open book on the table. Who knows what it says.
+Take a look?
+tmszzzzz_WhereMoonlightFalls_Gym_Go= Take a look.
+tmszzzzz_WhereMoonlightFalls_Gym_GoCancel= Never mind.
 
-[Madeline deadpan left]
-{>> 0.5}{big}DB is wrong.{/big}{>>}
+tmszzzzz_WhereMoonlightFalls_Gym_ReturnTitle= Back
+
+tmszzzzz_WhereMoonlightFalls_Gym_IntroTitle= Introduction
+tmszzzzz_WhereMoonlightFalls_Gym_Intro=
+{anchor top}
+[tmszzzzz]
+Hello! This is tmszzzzz.
+This is something like a Gym, {n}where I will introduce some {~}less common techniques{/~} that appear in this map.
+Walk to the right to see them one by one.
+Thank you so much for being willing to play the {~}first{/~} map I have made.
+This map (probably) contains the following elements:
+high density, high speed, high difficulty, routing, {n}atmosphere building, musical expression, cutscene design, story & True Ending......
+And perhaps even more.
+I cannot make every element perfect, {n}but I put a great deal of effort into every part of it.
+I hope it can really present all these elements in a fairly harmonious way,
+and I hope you have fun.
+In addition, turning on the photosensitive mode may result in the loss of some cutscene effects.
+
+
+tmszzzzz_WhereMoonlightFalls_Gym_CreditTitle= Credits
+tmszzzzz_WhereMoonlightFalls_Gym_Credit=
+{anchor top}
+[tmszzzzz]
+The Tilesets used in this map come from: {n}Circumplex, MarioXHK, tobyaaa, {n}Yoshachobi7, Alex6886, andytampan, and Mosscairn.
+Chinese Fonts cannot display properly here. You can switch the language to Chinese to see the name of Bgm.
+Thanks to the friends in the USTCer in Celeste group, {n}who gave me a great deal of valuable advice during the mapping process.
+Special thanks to TrigenWolf. for providing two {#F94A4A}strawberries{#} for this map,
+and to Kisaragi, DancingWave, PeachJam, {n}Kuroflame, and Martiancat for taking part deeply in the full playtesting process.
+Also thanks to the following playtesters: {n}PowerMaster, isbvoh, azure_bluet, H217_, and Zhizhu.
+Thanks to my good friend Lu Yunchuan for drawing the end screen artwork and the in-game illustrations.
+Thanks to Lucky Boy, an expert from the mapping group, for customizing the vanish animation for me.
+{+THOUGHT}Am I spoiling something here......{+ENDTHOUGHT}
+This map has a True Ending element. {n}The condition is very lenient, though. You only need to collect all the {#F94A4A}strawberries{#}!
+It was inspired by a friend from Bilibili. However, I cannot show his id here because his id is in Chinese. :(
+Thanks to NaCline. She gave me excellent suggestions on atmosphere building and story design. Her works also gave me a lot of inspiration in this regard.
+Thanks to everyone who supported me and urged me to update under the videos I posted.
+Thank you so, so much to everyone mentioned above. {n}Without you, this map would never have reached its current level of completion.
+
+tmszzzzz_WhereMoonlightFalls_Gym_CrouchingClimbTitle= Crouching Climb
+tmszzzzz_WhereMoonlightFalls_Gym_CrouchingClimb=
+{anchor top}
+[tmszzzzz]
+Crouching climb lets you climb while staying crouched.
+To perform this technique, you need to start with a crouch jump, {n}then continuously buffer climbs on the wall.
+If you have downward speed, your crouch will be canceled.
+This means the gap between releasing jump in each consecutive jump needs to be as short as possible.
+If you are good at using two jump buttons, I recommend holding one of them, then tapping the other jump button to perform consecutive jumps.
+Your dash has been disabled here. Try using crouching climb to cross this narrow gap.
+
+tmszzzzz_WhereMoonlightFalls_Gym_CrouchingWallBoostTitle= Crouching Wall Boost
+tmszzzzz_WhereMoonlightFalls_Gym_CrouchingWallBoost=
+{anchor top}
+[tmszzzzz]
+Crouching wall boost means using neutral climbs during crouching climb, {n}then performing a wall boost at a specific position.
+Wall boost has already been introduced in the Strawberry Jam Grandmaster Gym.
+As an additional note, most failed wall boosts fail because no neutral climb was performed.
+If you press left or right before climbing, you cannot perform a wall boost.
+Therefore, for crouching wall boost, it is best to tap left and right lightly.
+The leniency here is slightly low. This is only to limit the leniency when the wall boost is not performed.
+
+tmszzzzz_WhereMoonlightFalls_Gym_SwapExtendedHyperTitle= Swap Extended Hyper
+tmszzzzz_WhereMoonlightFalls_Gym_SwapExtendedHyper=
+{anchor top}
+[tmszzzzz]
+Here is a swap block with a very short travel distance.
+Intuitively, such a short distance should not allow an extended hyper at all.
+However, although its travel distance is short, it moves faster than your dash.
+This causes your dash movement to be completely covered by the movement of the swap block. It appears as if you dashed, but only moved a very short distance.
+So when you stand on the swap block, you can perform a very lenient extended hyper. At the same time, you can also gain acceleration from the swap.
+
+tmszzzzz_WhereMoonlightFalls_Gym_RetentionTitle= Bubble Retention
+tmszzzzz_WhereMoonlightFalls_Gym_Retention=
+{anchor top}
+[tmszzzzz]
+Retention is a general term for the phenomenon of blocked velocity being restored.
+When you are blocked by an obstacle while carrying speed, and are no longer blocked a moment later, 
+the speed you had before being blocked will be returned to you.
+Combining retention with a bubble gives bubble retention.
+Bubble retention is a technique with a very strange visual effect. Simply put, if you enter a bubble shortly after dashing past a wall corner, and there is no wall blocking the other side of the bubble,
+then although you should have been pulled into the bubble, you are mysteriously given your forward speed back.
+As a result, you slide out of the bubble in a strange way.
+If you press dash again at this moment, you will be pulled back to the bubble's position and perform a bubble dash.
+This allows you to perform a bubble dash while preserving horizontal speed.
+In most places in this map, using a demodash to slide past the wall corner gives retention higher leniency. 
+Do not worry. This technique does not make the inputs harder. It is just less intuitive.
+In this example, you need to start with a hyper into an ultra, then jump and immediately use a demodash up-right.
+If you do it correctly, you will slide out of the bubble. Then perform a down-right ultra.
+If you do not slide out of the bubble, then you can only perform a diagonally down 45° bubble dash, which will hit the spikes.
+
+
+tmszzzzz_WhereMoonlightFalls_Gym_BubbleCancelTitle= Bubble Cancel
+tmszzzzz_WhereMoonlightFalls_Gym_BubbleCancel=
+{anchor top}
+I am not sure whether this technique has a commonly accepted name, so I will temporarily call it "bubble cancel".
+When you touch entities such as a spring or a bumper while inside a bubble, it cancels your bubble state.
+However, your next dash will still become a bubble dash.
+This dash is no different from a normal dash in terms of input, but it will not trigger entities such as swaps that need to be triggered by a dash.
+In this example, you need to use a bubble dash to pass through the swap ahead.
+By the way, one bubble cancel in this map appears in a place combined with bubble retention. You need to touch the spring after sliding out of the bubble through retention.
+
+tmszzzzz_WhereMoonlightFalls_Gym_MomentumCarryTitle= Delayed Momentum Carry
+tmszzzzz_WhereMoonlightFalls_Gym_MomentumCarry=
+{anchor top}
+After you leave a moving block, or within 9 frames after that moving block stops, any jump or dash you perform will gain the momentum carried by that block.
+The jump here does not have to be related to that block. A jump from any surface can receive the acceleration.
+In this example, you need to step onto the moving block, then immediately dash up-left and wall kick after crossing the jump-through platform.
+Strangely enough, this wall kick actually gains acceleration from the moving block, even though they seem completely unrelated.
+By the way, one delayed acceleration in this map starts by grabbing the side of a moving block. 
+This requires you not to release grab while dashing. Releasing grab will cause the 9-frame timer to start early.
+
+tmszzzzz_WhereMoonlightFalls_rev_super= This hint is for my upper-left corner.
+
+tmszzzzz_WhereMoonlightFalls_holdgrab= Hold grab!
+
+tmszzzzz_WhereMoonlightFalls_grab= Grab the jellyfish here!
+
+tmszzzzz_WhereMoonlightFalls_drop_down= Drop down
+
+tmszzzzz_WhereMoonlightFalls_tutorial2=
+
+{anchor top}
+[tmszzzzz]
+To DB or not to DB, that is the question.
+If you want, one DB is enough to reach the area ahead.
+If you are a {~}{#FF7DA7}little piggy{#}{/~} who cannot DB, you can also take the route indicated by the {#ff9036}orange coins{#}.
+Wow, I am actually allowing a {~}{#FF7DA7}little piggy{#}{/~} to clear this room without using DB.
+How kind of me.
+[MADELINE determined left]
+You know what I am going to say.
+
+tmszzzzz_WhereMoonlightFalls_IntroDialog=
+{anchor top}
+{ph_trigger look right}
+{1}
+[MADELINE peaceful left]
+Ah, another beautiful night...
+{ph_trigger look left}
+{0.5}
+[MADELINE normal left]
+Quiet and vast, with every sound at rest...
+Living somewhere this remote really does make things peaceful.
+[MADELINE sad left]
+Wow, and the moonlight seems especially nice tonight.
+......
+[MADELINE determined left]
+{#d678db}{~}Badeline{/~}{#}.
+[nobody]
+......
+[MADELINE together left]
+{#d678db}{~}Badeline{/~}{#}!
+{ph_trigger baddy_split -15 -15}
+{1}
+
+[BADELINE serious right]
+What...
+
+[MADELINE normal left]
+Great, you are still awake too!
 
 [BADELINE angryAlt right]
-Who are you talking to?
+......
+How am I supposed to sleep if you are not asleep......
 
-[BADELINE scoff right]
-DB is right.
+[MADELINE normal left]
+Let's go out for a walk! {n}Moonlight like tonight's is rare.
 
+[BADELINE angry right]
+...?
+You really do love deciding things on a whim......
+
+[MADELINE normal left]
+You will not think that once we are outside.
+I can only imagine how pleasant a walk under this moonlight will be!
+
+[BADELINE serious right]
+......
+Fine.
+Do not go too far, okay?
+{ph_trigger baddy_combine}
+
+tmszzzzz_WhereMoonlightFalls_HaveABreakDialog=
+{anchor top}
 [tmszzzzz]
-Also, the author spent an entire week {~}carefully polishing{/~} this room.{n}Hope you enjoy!{/n}
+Before setting off, do you need another rest?
+The road ahead may not be easy.
+
+tmszzzzz_WhereMoonlightFalls_R1_1MeetGrannyDialog=
+{anchor bottom}
+{ph_trigger look right}
+[MADELINE surprised left]
+Huh, Granny?
+[MADELINE normal left]
+What are you doing here!
+
+{ph_trigger baddy_split -15 -15}
+
+[GRANNY right laugh]
+Wow! I never expected to see you two here!
+[GRANNY right normal]
+Are you out for a walk too?
+
+[MADELINE normal left]
+We are!
+[MADELINE peaceful left]
+The moonlight is so beautiful tonight. How could {#d678db}{~}anyone{/~}{#} not want to go out for a walk!
+
+[BADELINE normal left]
+Naturally.
+
+[GRANNY right normal]
+The moonlight here is indeed very nice,
+[GRANNY right mock]
+but I am on my way to an excellent moon-viewing spot.
+Compared with the scenery there, {n}even the moonlight in this quiet mountain forest falls a little short!
+
+[MADELINE normal left]
+Wow, is it really that amazing?
+How did I not know there was such a good place nearby!
+
+[GRANNY right normal]
+That place is in a nearby ruin.
+There is a tall tower in the ruins,
+and above that tower is just such a wonderful place.
+[GRANNY right mock]
+How about it? We can walk there together.
+
+[MADELINE normal left]
+Gladly!
+Let's go right away.
+
+[GRANNY right laugh]
+How rare. It has been so long since we last walked together, hasn't it?
+Ever since you came back from {#96EFFF}Celeste Mountain{#}, I have not seen you for a long time. {n}Dear {+MADELINE}.
+
+[MADELINE normal left]
+I missed you so much too, Granny.
+{ph_trigger baddy_combine}
+
+
+tmszzzzz_WhereMoonlightFalls_R1_1GrannyDialog=
+{anchor bottom}
+[GRANNY right mock]
+What is it? Are you not setting off yet?
+[MADELINE sad left]
+You have to keep up with us, Granny.
+[GRANNY right laugh]
+Do not worry about me. My legs are still perfectly fine.
+
+
+tmszzzzz_WhereMoonlightFalls_R1_1GrannyArriveDialog=
+{anchor top}
+{ph_trigger look right}
+[MADELINE surprised left]
+Huh??
+[MADELINE sad left]
+How did you get here? Weren't you walking behind us?
+[GRANNY right laugh]
+What are you talking about? I was only a few steps ahead of you. {n}Looks like I was simply walking too fast!
+[GRANNY right mock]
+When Granny was young, I was a climber just like you.
+[MADELINE upset left]
+......
+[GRANNY right mock]
+All right, keep going.
+From now on, I will not stop and wait for you.
+
+tmszzzzz_WhereMoonlightFalls_R1_5Dialog=
+{anchor top}
+[MADELINE distracted left]
+Why has it been so long since we last saw where Granny is?
+[BADELINE scoff right]
+She is definitely waiting for you far, far ahead!
+[BADELINE normal right]
+Hurry up and find her.
+[MADELINE together left]
+Weren't you still completely uninterested before we left? Why do you look even more energetic than I am now?
+[BADELINE angry right]
+Th-that is only because I am keeping you company on this walk!
+
+
+tmszzzzz_WhereMoonlightFalls_InTheRaincloudDialog=
+
+{anchor top}
+
+[MADELINE distracted left]
+It is too dark here...
+I can barely see anything at all...
+
+{ph_trigger baddy_split -15 -15}
+{1}
+
+[BADELINE sad right]
+This place is terrifying...
+
+[MADELINE sad left]
+...Are you okay?
+
+[BADELINE worried right]
+{*}I hate it here.{/*}
+[BADELINE sad right]
+{*}Why did we follow Granny and climb all the way up to such a high place?{/*}
+
+[MADELINE sad left]
+……
+[MADELINE distracted left]
+I am having a little trouble breathing.
+[MADELINE determined left]
+Do not panic. Think of what {+THEO} taught us.
+
+[BADELINE worried right]
+I know,
+on the gondola in {#FFD65C}{~}Golden Ridge{/~}{#}.
+
+[MADELINE peaceful left]
+Imagine a {#FFD65C}{~}golden feather{/~}{#}.
+
+[BADELINE worried right]
+……
+{ph_trigger baddy_float_by_player 0 -30}
+[BADELINE sad right]
+Sorry, I am still scared.
+[BADELINE worried right]
+But I will try my best to keep going with you.
+{ph_trigger baddy_float_by_player 0 -200}
+{ph_trigger baddy_vanish}
+{ph_trigger camera_pan 0 -400}
+{1}
+{ph_trigger camera_pan 0 400}
 
 [MADELINE determined left]
-DB is right.
+Just breathe, {+MADELINE}, {n}and {+PART_OF_ME} too.
+The {#FFD65C}{~}golden feather{/~}{#} will guide us through the {#C177F3}{~}thunderclouds{/~}{#}.
 
-[BADELINE angryAlt right]
-Since when do you like talking to yourself?
 
-[BADELINE scoff right]
-DB is wrong.
+tmszzzzz_WhereMoonlightFalls_R2_1IntroDialog=
 
-AboveTheRaincloudDialog=
+{anchor top}
+
+[MADELINE surprised left]
+Whoa!
+{ph_trigger baddy_split -15 -15}
+[MADELINE sad left]
+Why did it suddenly start raining now...
+How are we supposed to keep going!
+
+[GRANNY right laugh]
+Losing heart already, {+MADELINE}?
+
+[MADELINE sad left]
+Ah, Granny.
+So you were waiting for us here.
+[MADELINE sadder left]
+The rain suddenly got this heavy. We should go back first...
+
+[GRANNY right mock]
+You are a climber who climbed {#96EFFF}Celeste Mountain{#} through your own determination.
+How can one rainstorm make you turn back?
+
+[MADELINE sad left]
+But we came out to admire the moon.
+With rain this heavy, the moon is completely invisible now......
+
+[GRANNY right normal]
+If you want to admire the moon, we only need to climb to the {~}top of the rainclouds{/~} to see it.
+The moonlight there is truly incomparable.
+
+[MADELINE deadpan left]
+Granny, do you know what you are saying?
+
+[GRANNY right mock]
+What? It does not sound like much compared with all those dangerous places you have been to.
+The {#20851C}bramble-covered Chinese garden{#}, the {#fe7c19}mysterious asteroid belt{#}, the {#03E5F5}four-{#}{#FC75EB}color {#}{#FFCD43}bumper{#} arcade machine...
+
+[BADELINE angryAlt left]
+Why is an arcade machine a dangerous place??
+
+[MADELINE normal left]
+Why did you not mention the {#FEF674}Ivory Tower{#}?
+
+[GRANNY right laugh]
+Sorry, {~}I forgot{/~}.
+[GRANNY right mock]
+All right, let us get back to the point. {n}I am not joking when I say this.
+[GRANNY right normal]
+Right at the top of that tower, even higher than that moon-viewing spot,
+there is a path leading straight above the clouds.
+
+[BADELINE worried left]
+My goodness, that sounds absurd.
+[MADELINE normal left]
+That sounds interesting.
+[BADELINE worriedAlt left]
+......
+
+[GRANNY right normal]
+But that path is a little hard to walk.
+Looking at this rain, it may get even heavier soon.
+If you want to take that path, that is not good news.
+
+[MADELINE normal left]
+But since there is such a path, I want to try walking it.
+
+[BADELINE worriedAlt left]
+I think you should still know your limits......
+
+[GRANNY right mock]
+It is all right. Trust her.
+[GRANNY right normal]
+But from here on, we cannot take things as leisurely as before. We need to get there before the rain gets heavier.
+This is the entrance to the ruins. We are already not far from that tower.
+Let us {~}pick up the pace{/~}!
+{ph_trigger baddy_combine}
+
+tmszzzzz_WhereMoonlightFalls_SeeTheTowerDialog=
+{anchor top}
+[MADELINE sad left]
+I see it!
+That must be the tower Granny mentioned.
+Granny should already be waiting for us there.
+
+tmszzzzz_WhereMoonlightFalls_B4Dialog=
+{anchor top}
+[tmszzzzz]
+You may need a few hints.
+In this room, there are many dash-cooldown setups.
+Because of that, many dashes need to be buffered. All grounded ultras can also be buffered.
+The first and second grounded ultras must be buffered.
+None of the retentions in this room require crouching.
+There is also one retention in this room that is triggered by a horizontal dash.
+This requires you to dash immediately when the dash cooldown from the bumper ends, so you need to buffer the dash here.
+
+tmszzzzz_WhereMoonlightFalls_TakeFlowerDialog=
+{anchor top}
+[tmszzzzz]
+{#FAC1E4}In this desolate ruin, there is still a cluster of flowers blooming brightly here.
+Perhaps they grew with the help of this small patch of light.
+In the sudden rainstorm, one flower has been blown to the ground.
+I gently pick it up.{#}
+{ph_trigger set_flag true_end true}
+
+tmszzzzz_WhereMoonlightFalls_AfterFlowerDialog=
+{anchor top}
+[tmszzzzz]
+{#FAC1E4}I hope this cluster of flowers is still safe when the storm passes.{#}
+
+tmszzzzz_WhereMoonlightFalls_ViewPointDialog=
+{anchor top}
+[tmszzzzz]
+This is a viewpoint with a wide-open view.
+Although the buildings around it have already fallen into ruin, some traces of the old scenery seem to remain here.
+Perhaps this is the moon-viewing spot Granny mentioned?
+If not for this rain, the moonlight here would probably be truly beautiful.
+
+tmszzzzz_WhereMoonlightFalls_GoForTheRaincloudDialog=
 {anchor top}
 {ph_trigger wait_for_ground}
-{ph_trigger walk_to 267}
-{0.1}
 {ph_trigger look right}
-{femto_obfuscated 99}
+{1}
+{ph_trigger baddy_split -15 -15}
+[MADELINE sad left]
+Granny! Have you been waiting for us for a long time?
+[MADELINE distracted left]
+How can you walk so fast every time?
+
+[GRANNY right mock]
+Do not underestimate my climbing ability.
+[GRANNY right laugh]
+Would you like me to tell you about what I did when I was young?
+
 [MADELINE normal left]
-AboveTheRaincloudDialog
+Wow, that must be a wonderful story.
+
+[GRANNY right normal]
+But that will have to wait for another day. The rain has become very heavy.
+This is already the top of the tower, and above us is a sky packed with dark clouds.
+The road we need to take is up there.
+
+[BADELINE worried left]
+I see it. That road is so, so long.
+I can barely see where it ends.
+
+[GRANNY right normal]
+In any case, we have already come this high.
+You do not want to give up here, do you?
+
+[MADELINE sad left]
+No.
+If it is a view even you could never forget, Granny, I have to see it for myself.
+{ph_trigger baddy_combine}
+
+tmszzzzz_WhereMoonlightFalls_GoForTheRaincloudGrannyDialog=
+{anchor top}
+[GRANNY right normal]
+Are you afraid, {+MADELINE}?
+What I must tell you is that this path is as dangerous as it looks.
+Once you step onto it, for quite a long time, you will have no reliable place to stand.
+High above, under a sky packed with dark clouds, there are violent winds and rain, lightning and thunder everywhere.
+I know you have been to many dangerous places.
+But even that {#fe7c19}solar express{#}, {n}{~}or even{/~} the {#FEF674}Ivory Tower{#} you mentioned,
+is not as perilous as this path.
+I hope you can prepare yourself for that.
+Also, you may need to use the technique you learned on the {#fe7c19}solar express{#}.
+[MADELINE distracted left]
+I understand. Thank you, Granny.
+Am I afraid?
+To be honest, I am really not that brave.
+Just standing here and looking up at that path is enough to make my heart race.
+I cannot imagine myself moving along a cloud ladder that is almost vertical.
+[MADELINE sad left]
+But I know that even if I am afraid, I will not step back.
+I can definitely make it across.
+[GRANNY right normal]
+I am truly glad you have that quality.
+It seems I do not need to worry about how you are doing all the time.
+[MADELINE sad left]
+I am sorry. Some things before made the people around me worry.
+[MADELINE normal left]
+But I have gotten through them. I am living normally now.
+If you have time, Granny, please come visit me more often too!
+[GRANNY right normal]
+......
+If I still have such a chance, I will definitely come visit you.
+
+tmszzzzz_WhereMoonlightFalls_AboveTheRaincloudDialog=
+{anchor top}
+{ph_trigger wait_for_ground}
+{ph_trigger look right}
+{0.1}
+[MADELINE normal left]
+Granny! {n}I knew this stretch would be nothing for you.
+[GRANNY right laugh]
+You finally made it, dear.
+[GRANNY right mock]
+I have been waiting here for you for a long time.
+[MADELINE normal left]
+That path just now was really terrifying!
+[MADELINE sad left]
+When we reached the center of the rainclouds, the wind was roaring all around us, and it was so dark I could not see my own hand.
+It was truly frightening.
+[MADELINE normal left]
+Who would have thought that we actually made it through!
+[MADELINE peaceful left]
+The scenery here is so wondrous......
+[GRANNY right laugh]
+Congratulations to you both.
+[GRANNY right mock]
+I knew long ago that you could do it.
+[GRANNY right normal]
+This next path is very {~}fantastical{/~}.
+So I will point out the way for you.
+You will see three colors of dream blocks. All of them can preserve your speed.
+{#88D1DF}Blue dream blocks{#} do not have anything special about them.
+{#C077F6}Purple dream blocks{#} let you dash inside them to change direction.
+If the direction of your dash is the same as your direction of travel, your speed will immediately {~}double{/~}.
+{#EE4029}Red dream blocks{#} will launch you in the opposite direction. You can also perform a dream jump during the short time after being launched.
+[MADELINE sad left]
+Why do you know all this so clearly?
+[GRANNY right laugh]
+Because I was a climber when I was young!
+[MADELINE upset left]
+I have heard that several times already. And that reason is really not enough to convince me.
+[GRANNY right mock]
+All right, all right.
+Actually, I guessed.
+[MADELINE upset left]
+......
+[GRANNY right mock]
+Keep going, dear. This is the final stretch.
+[MADELINE sad left]
+......
+[MADELINE distracted left]
+......Did we ever agree on where the end of this journey would be?
+[GRANNY right mock]
+If possible, I would also wish there were no en
+d
+{femto_obfuscated 50}
+garbled text
+
+
+
+tmszzzzz_WhereMoonlightFalls_LastScene1Dialog=
+{anchor top}
+{ph_trigger look right}
+[MADELINE normal left]
+Granny!
+
+LastScene2Dialog=
+{anchor top}
+{ph_trigger look right}
+{2}
+[MADELINE surprised left]
+What is happening???
+
+tmszzzzz_WhereMoonlightFalls_LasteSceneFloatingText1= My dear Madeline,
+tmszzzzz_WhereMoonlightFalls_LasteSceneFloatingText2= To have the fortune of admiring this moon with you,
+tmszzzzz_WhereMoonlightFalls_LasteSceneFloatingText3= even in another world...
+tmszzzzz_WhereMoonlightFalls_LasteSceneFloatingText4= makes me so happy.
+
+tmszzzzz_WhereMoonlightFalls_LastScene3Dialog=
+{anchor top}
+[MADELINE distracted left]
+What exactly is this place?
+I... have never even heard of those ruins,
+and as for a path leading straight above the clouds, that is even more unheard of.
+[MADELINE sadder left]
+......
+I am just an ordinary person. How could I possibly climb above the clouds on foot?
+Even if Granny was also a climber when she was young, she could not be so fast that I could not even see her footsteps.
+And all these strange things along the way,
+even Granny could vanish right in front of my eyes.
+[MADELINE panic left]
+Granny, I miss you so much.
+......
+Why am I only remembering these things now?
+{*}Granny passed away a long time ago!{/*}
+{*}How could I possibly run into her during a walk and travel together with her?{/*}
+{*}Why did I act as if all these absurd things were perfectly natural?{/*}
+{ph_trigger baddy_split -15 -15}
+{1}
+[MADELINE sadder left]
+So I really am in my own dream, aren't I?
+Such impossible scenery,
+and yet I was unmoved by it, as if it was all supposed to be this way.
+
+[BADELINE sigh right]
+Do not be so pessimistic.
+[BADELINE upset right]
+If this is only a dream, then you will wake up in the next second and find yourself lying in bed.
+Although all of this is so fantastical, so unreal,
+I am still here with you.
+[BADELINE scoff right]
+It is not like we can both dream in the same illusion, can we?
+
+[MADELINE upset left]
+Who knows whether you are just the {#d678db}{~}Badeline{/~}{#} in my dream.
+
+[BADELINE scoff right]
+Then maybe you are only the {+MADELINE} in my dream too.
+[BADELINE normal right]
+Does this scenery, where thoughts and reality are woven together, remind you of anything?
+
+[MADELINE distracted left]
+......
+{#96EFFF}Celeste Mountain{#}.
+[MADELINE sad left]
+Ah!
+You mean these scenes are actually... real?
+Just like the things manifested by {+MOUNTAIN}.
+[MADELINE distracted left]
+But we are no longer on {+MOUNTAIN}......
+
+[BADELINE upset right]
+That is true......
+But did you forget? After leaving {+MOUNTAIN}, {n}I was not actually supposed to be able to appear before your eyes {#d678db}{~}like this{/~}{#} anymore.
+
+[MADELINE distracted left]
+{#96EFFF}The Heart of the Mountain{#}.
+
+[BADELINE upset right]
+Yes. Ever since you returned from the core of {+MOUNTAIN}, you seem to have brought back some of {+MOUNTAIN}'s power.
+
+[MADELINE sad left]
+Really? So that really was Granny!
+......
+[MADELINE sadder left]
+......
+[MADELINE panic left]
+......
+
+[BADELINE sigh right]
+Honestly, I do not know.
+[BADELINE upset right]
+I am only {+PART_OF_YOU}. I do not know any more than you yourself do.
+But maybe we do not need to be so fixated on whether it was real.
+
+[MADELINE sadder left]
+......
+But I really hope it was real. {n}I hope the short part of the journey where I walked with her was not merely a fleeting dream.
+
+[BADELINE upset right]
+Do you know what kind of hope you are holding onto, {+MADELINE}? This is something unknowable.
+How can you be certain that what lies beyond this illusion-like scenery is reality?
+[BADELINE serious right]
+How can you prove that we are not just the heroine of a video game and her {#d678db}{~}other self{/~}{#}?
+[BADELINE upset right]
+Funerals are for the living, {+MADELINE}.
+Just treat it as though that was her, as though Granny came back into your dream to see you.
+[BADELINE normal right]
+Just treat it as the {#96EFFF}Heart of the Mountain{#} echoing in a dream, letting Granny walk with us again for a little while.
+
+[MADELINE sadder left]
+......
+
+{ph_trigger baddy_combine}
+
+tmszzzzz_WhereMoonlightFalls_LastScene4Dialog=
+{anchor top}
+{ph_trigger wait_for_ground}
+{1}
+{ph_trigger walk_to 15910}
+{1}
+{ph_trigger player_animation duck}
+Is this moonlight above the clouds a dream, or reality manifested by the {#96EFFF}Heart of the Mountain{#}?
+As the dreamer suddenly wakes, this small surreal world seems to be falling apart as well.
+But the gravestone beneath the tree remains intact.
+Is the longing of the living so heavy? Can such an endless tide of feeling, 
+within the echo of the {#96EFFF}Heart of the Mountain{#}, be lifted through the raging storm and carried to the edge of the clouds?
+Is she truly buried here? Could such a gentle, lovely, free soul, 
+sleeping forever beneath this moonlit clarity, really meet once more with the person who loved her most?
+......
+Are you looking up at the moon with me at this very moment? 
+And yet I no longer have the chance to hear your answer.
+I wish to flow away with that moonlight, 
+shining upon you forever.
+{ph_trigger player_animation idle}
+
+tmszzzzz_WhereMoonlightFalls_LastScene4Dialog_true_end=
+{anchor top}
+{ph_trigger wait_for_ground}
+{1}
+{ph_trigger walk_to 15910}
+{1}
+{ph_trigger player_animation duck}
+Is this moonlight above the clouds a dream, or reality manifested by the {#96EFFF}Heart of the Mountain{#}?
+As the dreamer suddenly wakes, this small surreal world seems to be falling apart as well.
+But the gravestone beneath the tree remains intact.
+Is the longing of the living so heavy? Can such an endless tide of feeling, 
+within the echo of the {#96EFFF}Heart of the Mountain{#}, be lifted through the raging storm and carried to the edge of the clouds?
+Is she truly buried here? Could such a gentle, lovely, free soul, 
+sleeping forever beneath this moonlit clarity, really meet once more with the person who loved her most?
+......
+Are you looking up at the moon with me at this very moment? 
+And yet I no longer have the chance to hear your answer.
+I wish to flow away with that moonlight, 
+shining upon you forever.
+{#FAC1E4}Above this boundless sea of clouds,
+beneath the moonlight filling the sky,
+I offer you
+a flower.
+May these small petals carry
+my endless longing to you.{#}
+{ph_trigger set_flag give_flower true}
+{ph_trigger player_animation idle}
+
+
+tmszzzzz_WhereMoonlightFalls_LastScene5Dialog_true_end=
+{anchor top}
+[MADELINE distracted left]
+......
+{+THOUGHT}Is this... "reality" now?{+ENDTHOUGHT}
+[MADELINE sadder left]
+......
+[MADELINE sad left]
+{+THOUGHT}!!{+ENDTHOUGHT}
+
+tmszzzzz_WhereMoonlightFalls_LastScene6Dialog_true_end=
+{anchor top}
+[MADELINE sad left]
+{+THOUGHT}Petals......{+ENDTHOUGHT}
+[MADELINE sadder left]
+......
+Granny, this is the {#FAC1E4}flower{#} I gave you......
+Did you see it?
+[MADELINE panic left]
+Did you really come back to see me?
+......
+[nobody]
+......
+{#FAC1E4}
+The night is already very deep.
+In the instant I woke with a start, I did not understand
+which place was dream, and which was reality.
+But I only wanted to sink back into sleep.
+Then longing could turn into a vivid dream, 
+and in the dream, you and I would walk together once more.{#}
+
+tmszzzzz_WhereMoonlightFalls_LastScene7Dialog_true_end=
+{anchor top}
+[MADELINE normal left]
+Granny, I am here!
+{ph_trigger walk_to 16314}
+[GRANNY right laugh]
+Well? The view here is not bad, is it?
+[MADELINE normal left]
+It really is!
+[MADELINE sad left]
+Goodness, do you know how wondrous that path just now was?
+It was so fast that I could barely see what flashed past beside me,
+[MADELINE peaceful left]
+as if I were stepping on the moon and passing through the clouds!
+[GRANNY right laugh]
+Hehe, Granny is {~}omnipotent{/~}, {n}so of course I had to bring you to see the most beautiful scenery!
+[MADELINE peaceful left]
+Yes, the scenery here really is beautiful.
+[MADELINE normal left]
+The boundless sea of clouds, the moonlight filling the sky......
+The floating island and cherry blossom tree above the clouds,
+the crystal-clear Crystal Heart......
+and my dearest Granny!
+[MADELINE peaceful left]
+It really is like {~}a dream{/~}......
+[GRANNY right normal]
+If you like it here, we should come here together often from now on.
+[MADELINE normal left]
+Mm-hmm, it is a promise!
+As for today......
+[GRANNY right normal]
+It is all right. We can stay here as long as we want!
+As long as you wish, we can keep staying here and enjoying the view.
+[MADELINE sad left]
+Okay.
+[MADELINE sadder left]
+......
+[MADELINE panic left]
+......
+[GRANNY right normal]
+What is wrong, {+MADELINE}?
+[MADELINE sadder left]
+I... I do not know......
+I suddenly feel very sad.
+Is it because I will always have to leave this beautiful place, always have to say goodbye to you, Granny?
+[MADELINE sad left]
+Why can we not just stay here forever and ever!
+You are clearly still here, Granny, and we can come here together again next time,
+[MADELINE panic left]
+but somehow, I just feel so sad and so afraid.
+It is like I am afraid that after leaving here, I will never again have the chance to come here with you......
+[GRANNY right normal]
+You silly child, why make the mood so sorrowful all of a sudden?
+[GRANNY right laugh]
+I am right here, safe and sound.
+[GRANNY right normal]
+On every night with moonlight this beautiful, we can go out for a walk together.
+When you set out under the moonlight and walk along the paths in the mountain forest,
+perhaps you will happen to meet me, and we will walk together for a while just like today.
+[GRANNY right laugh]
+Is that not the most ordinary thing in the world?
+[MADELINE sad left]
+Yes......
+[MADELINE normal left]
+But I will remember today's journey forever.
+So let this beautiful moment last a little longer.
+
+tmszzzzz_WhereMoonlightFalls_FinalDialog_true_end=
+{anchor top}
+[GRANNY right normal]
+My dear {+MADELINE}.
+To have the fortune of admiring this moon with you really is such a happy thing.
+ {#F94A4A}At the very, very end, let us look at the scenery here together.
+I really miss you. {#}
+
