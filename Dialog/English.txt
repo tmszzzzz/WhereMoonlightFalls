@@ -370,6 +370,7 @@ How are we supposed to keep going!
 [GRANNY right laugh]
 Losing heart already, {+MADELINE}?
 
+{ph_trigger look right}
 [MADELINE sad left]
 Ah, Granny.
 So you were waiting for us here.

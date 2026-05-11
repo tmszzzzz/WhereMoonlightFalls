@@ -1,5 +1,5 @@
 - Name: WhereMoonlightFalls
-  Version: 0.1.17
+  Version: 1.0.2
   Dependencies:
     - Name: AdventureHelper
       Version: 1.6.0

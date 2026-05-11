@@ -373,6 +373,7 @@ tmszzzzz_WhereMoonlightFalls_R2_1IntroDialog=
 [GRANNY right laugh]
 怎么这就泄气了，{+MADELINE}？
 
+{ph_trigger look right}
 [MADELINE sad left]
 啊，奶奶。
 原来您在这里等我们呢。
